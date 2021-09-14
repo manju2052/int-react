@@ -6,7 +6,7 @@ const [data,setData]=useState({gdata:[]});
 
 
 useEffect(()=>{
-    axios.get(`http://65.0.29.154:4000/test`).then(
+    axios.get(`http://65.0.29.154:5000/test`).then(
         res=>{
             setData({gdata:res.data})
         }
