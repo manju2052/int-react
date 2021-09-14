@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   reactapp:
-    image: "comtechsayan/int-react-docker"
+    image: "comtechsayan/react-app-docker"
     restart: always # This will be ignored if we deploy in docker swarm
     ports:
       - 3000:8001
