@@ -20,6 +20,7 @@ useEffect(()=>{
         <>
 <h1>{data.gdata.data}</h1>
 <h1>{data.gdata.data}</h1>
+<h4>{data.gdata.data}</h4>
 
         </>
     )
