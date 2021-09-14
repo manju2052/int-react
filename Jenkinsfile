@@ -23,6 +23,10 @@ node{
         
         sh "docker push comtechsayan/int-react-docker-dev"
     }
+
+    stage("Remove Local Image"){
+        sh "docker rmi -f comtechsayan/int-react-docker-dev"
+    }
     
     stage("Run in Docker Swarm Manager"){
         
